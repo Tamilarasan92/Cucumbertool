@@ -1,0 +1,4 @@
+com\omrbranch\report\Reporting.class
+com\omrbranch\stepdefinition\loginStep.class
+com\omrbranch\runner\TestRunner2.class
+com\omrbranch\runner\TestRunner.class

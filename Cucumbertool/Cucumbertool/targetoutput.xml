@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.3" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-23T03:21:07.868329400Z">
+<testcase classname="Verify OMR Branch Login function" name="Verify Greens login with valid credentials - #1.1" time="0.018">
+<system-out><![CDATA[
+Given User is on Greens login page..........................................passed
+When User enters "t.tamil1992@gmail.com" and "1Tamil92!"....................passed
+And User click login button.................................................passed
+Then User should verify after successful login..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
