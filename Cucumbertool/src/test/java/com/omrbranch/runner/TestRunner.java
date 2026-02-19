@@ -22,14 +22,14 @@ import junit.framework.Test;
 public class TestRunner {
 	
 	@AfterClass
-	public void Test()
+	public void Test2()
 	{
 		System.out.println("Tester1");
 	}
 	
 	public void Test1()
 	{
-		System.out.println("Tester1");
+		System.out.println("Tester2");
 	}
 	public static void afterclass()
 	{
