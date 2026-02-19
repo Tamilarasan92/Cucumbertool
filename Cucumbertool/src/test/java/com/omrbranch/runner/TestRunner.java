@@ -7,6 +7,7 @@ import com.omrbranch.report.Reporting;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
+import junit.framework.Test;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -21,6 +22,10 @@ import io.cucumber.junit.CucumberOptions;
 public class TestRunner {
 	
 	@AfterClass
+	public void Test()
+	{
+		System.out.println("Tester1");
+	}
 	public static void afterclass()
 	{
 		String jsonReport = "C:\\Users\\Tamilarasan T\\eclipse-workspace\\Cucumbertool\\target\\targetoutput.json";
