@@ -24,7 +24,7 @@ public class TestRunner {
 	public static void afterclass()
 	{
 		String jsonReport = "C:\\Users\\Tamilarasan T\\eclipse-workspace\\Cucumbertool\\target\\targetoutput.json";
-		
+		System.out.println("Tester");
 		Reporting.generateJvmReport(jsonReport);
 	}
 	
