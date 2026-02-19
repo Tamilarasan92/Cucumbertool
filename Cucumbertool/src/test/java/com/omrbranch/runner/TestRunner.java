@@ -26,6 +26,11 @@ public class TestRunner {
 	{
 		System.out.println("Tester1");
 	}
+	
+	public void Test1()
+	{
+		System.out.println("Tester1");
+	}
 	public static void afterclass()
 	{
 		String jsonReport = "C:\\Users\\Tamilarasan T\\eclipse-workspace\\Cucumbertool\\target\\targetoutput.json";
